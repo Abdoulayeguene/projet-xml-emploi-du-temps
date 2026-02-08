@@ -1,4 +1,4 @@
-# Gestion de l'Emploi du Temps – Projet XML
+# Gestion de l'Emploi du Temps - Projet XML
 
 Ce projet est structuré en deux volets : une étude comparative des formats XML, JSON et YAML, et la réalisation d'une application web utilisant XML dans un contexte concret.
 
@@ -112,7 +112,7 @@ Cette architecture peut être suivie pas à pas pour le **développement**, le *
 - Abdoulaye Guene  
 - Aissatou Billy Sall  
 
-**Année académique :** 2024 – 2025  
+**Année académique :** 2024 - 2025  
 
 Cette architecture permet d'illustrer concrètement les concepts abordés en cours, en distinguant clairement données, structure, validation et logique applicative.
 
