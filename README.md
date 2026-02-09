@@ -2,8 +2,6 @@
 
 Ce projet est structuré en deux volets : une étude comparative des formats XML, JSON et YAML, et la réalisation d'une application web utilisant XML dans un contexte concret.
 
-Projet : étude comparative XML, JSON et YAML, et réalisation d'une application web de gestion d'emploi du temps en PHP, conforme au cadre du cours.
-
 ---
 
 ## 1. Objectifs pédagogiques
@@ -15,7 +13,7 @@ Ce projet vise à démontrer la maîtrise des points suivants :
 - **XSD (XML Schema Definition)** : validation stricte des types de données, des contraintes et de la cohérence du document.
 - **PHP** : lecture du document XML, validation au moyen du schéma XSD, et génération d'une page HTML pour l'affichage.
 
-L'application produite affiche un emploi du temps à partir d'un fichier XML validé, sans recourir à XSLT. L'étude comparative détaillée entre XML, JSON et YAML est développée dans le rapport joint au projet.
+L'application produite affiche un emploi du temps à partir d'un fichier XML validé, sans recourir à XSLT. L'étude comparative détaillée entre XML, JSON et YAML est développée dans le rapport et le power point joint au projet.
 
 ---
 
@@ -84,7 +82,7 @@ projet-xml-emploi-du-temps/
 
 ---
 
-## 4. Parcours de réalisation recommandé
+## 4. Parcours de réalisation
 
 Cette architecture peut être suivie pas à pas pour le **développement**, le **rapport écrit** et la **présentation** :
 
@@ -118,4 +116,4 @@ Cette architecture permet d'illustrer concrètement les concepts abordés en cou
 
 ---
 
-*Ce README décrit l’architecture et les choix techniques du projet. Il sert de référence pour le développement, le rapport et la soutenance.*
+*Ce README décrit l’architecture et les choix techniques du projet. Il sert de référence pour le développement et le rapport .*
