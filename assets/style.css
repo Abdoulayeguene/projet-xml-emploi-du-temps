@@ -1,0 +1,120 @@
+/**
+ * style.css
+ * Mise en forme de la page emploi du temps.
+ * Présentation uniquement ; aucune logique.
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.75rem;
+}
+
+.sous-titre {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.sous-titre code {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+}
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+}
+
+.jour {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.jour h2 {
+    margin: 0;
+    padding: 1rem 1.25rem;
+    background: #34495e;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.table-cours {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-cours th,
+.table-cours td {
+    padding: 0.6rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.table-cours thead th {
+    background: #ecf0f1;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.table-cours tbody tr:hover {
+    background: #f9f9f9;
+}
+
+.table-cours td:first-child {
+    white-space: nowrap;
+    color: #555;
+}
+
+.message {
+    padding: 2rem;
+    text-align: center;
+    color: #666;
+}
+
+.footer {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    border-top: 1px solid #e0e0e0;
+}
+
+@media (max-width: 600px) {
+    .header,
+    .main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .table-cours th,
+    .table-cours td {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+}

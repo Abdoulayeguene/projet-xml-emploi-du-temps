@@ -1,0 +1,20 @@
+<!-- DTD : structure générale du document emploi_du_temps -->
+<!ELEMENT emploi_du_temps (cours+)>
+<!ATTLIST emploi_du_temps
+  xmlns:xsi CDATA #IMPLIED
+  xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+<!ELEMENT cours (matiere, enseignant, horaire, salle, type)>
+<!ATTLIST cours id ID #REQUIRED>
+
+<!ELEMENT matiere (#PCDATA)>
+<!ELEMENT enseignant (nom, prenom)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+
+<!ELEMENT horaire (jour, heure_debut, heure_fin)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT heure_debut (#PCDATA)>
+<!ELEMENT heure_fin (#PCDATA)>
+
+<!ELEMENT salle (#PCDATA)>
+<!ELEMENT type (#PCDATA)>

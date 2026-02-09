@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+  <xs:element name="emploi_du_temps">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="cours" type="coursType" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="coursType">
+    <xs:sequence>
+      <xs:element name="matiere" type="xs:string"/>
+      <xs:element name="enseignant" type="enseignantType"/>
+      <xs:element name="horaire" type="horaireType"/>
+      <xs:element name="salle" type="xs:string"/>
+      <xs:element name="type" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="enseignantType">
+    <xs:sequence>
+      <xs:element name="nom" type="xs:string"/>
+      <xs:element name="prenom" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="horaireType">
+    <xs:sequence>
+      <xs:element name="jour" type="xs:string"/>
+      <xs:element name="heure_debut" type="xs:time"/>
+      <xs:element name="heure_fin" type="xs:time"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

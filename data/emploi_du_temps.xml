@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Fichier XML : emploi_du_temps.xml
+  Contient 15 cours répartis sur 5 jours.
+  Chaque cours est validé par emploi_du_temps.dtd et emploi_du_temps.xsd.
+  Heures au format HH:MM:SS.
+  IDs uniques : c1 à c15.
+-->
+<!DOCTYPE emploi_du_temps SYSTEM "emploi_du_temps.dtd">
+<emploi_du_temps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="emploi_du_temps.xsd">
+
+  <!-- Lundi -->
+  <cours id="c1">
+    <matiere>Programmation Web</matiere>
+    <enseignant>
+      <nom>Diop</nom>
+      <prenom>Moussa</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Lundi</jour>
+      <heure_debut>08:00:00</heure_debut>
+      <heure_fin>10:00:00</heure_fin>
+    </horaire>
+    <salle>B201</salle>
+    <type>Cours magistral</type>
+  </cours>
+
+  <cours id="c2">
+    <matiere>Base de données</matiere>
+    <enseignant>
+      <nom>Ndiaye</nom>
+      <prenom>Fatou</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Lundi</jour>
+      <heure_debut>10:15:00</heure_debut>
+      <heure_fin>12:15:00</heure_fin>
+    </horaire>
+    <salle>B203</salle>
+    <type>Travaux pratiques</type>
+  </cours>
+
+  <cours id="c3">
+    <matiere>Réseaux</matiere>
+    <enseignant>
+      <nom>Sow</nom>
+      <prenom>Ibrahima</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Lundi</jour>
+      <heure_debut>14:00:00</heure_debut>
+      <heure_fin>16:00:00</heure_fin>
+    </horaire>
+    <salle>A102</salle>
+    <type>Cours magistral</type>
+  </cours>
+
+  <!-- Mardi -->
+  <cours id="c4">
+    <matiere>Technologies XML</matiere>
+    <enseignant>
+      <nom>Diallo</nom>
+      <prenom>Aminata</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Mardi</jour>
+      <heure_debut>08:00:00</heure_debut>
+      <heure_fin>10:00:00</heure_fin>
+    </horaire>
+    <salle>B201</salle>
+    <type>Cours magistral</type>
+  </cours>
+
+  <cours id="c5">
+    <matiere>Technologies XML</matiere>
+    <enseignant>
+      <nom>Diallo</nom>
+      <prenom>Aminata</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Mardi</jour>
+      <heure_debut>10:15:00</heure_debut>
+      <heure_fin>12:15:00</heure_fin>
+    </horaire>
+    <salle>B205</salle>
+    <type>Travaux dirigés</type>
+  </cours>
+
+  <cours id="c6">
+    <matiere>Systèmes d&apos;exploitation</matiere>
+    <enseignant>
+      <nom>Ba</nom>
+      <prenom>Ousmane</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Mardi</jour>
+      <heure_debut>14:00:00</heure_debut>
+      <heure_fin>16:00:00</heure_fin>
+    </horaire>
+    <salle>A105</salle>
+    <type>Cours magistral</type>
+  </cours>
+
+  <!-- Mercredi -->
+  <cours id="c7">
+    <matiere>Programmation Web</matiere>
+    <enseignant>
+      <nom>Diop</nom>
+      <prenom>Moussa</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Mercredi</jour>
+      <heure_debut>08:00:00</heure_debut>
+      <heure_fin>10:00:00</heure_fin>
+    </horaire>
+    <salle>B201</salle>
+    <type>Travaux pratiques</type>
+  </cours>
+
+  <cours id="c8">
+    <matiere>Base de données</matiere>
+    <enseignant>
+      <nom>Ndiaye</nom>
+      <prenom>Fatou</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Mercredi</jour>
+      <heure_debut>10:15:00</heure_debut>
+      <heure_fin>12:15:00</heure_fin>
+    </horaire>
+    <salle>B203</salle>
+    <type>Cours magistral</type>
+  </cours>
+
+  <cours id="c9">
+    <matiere>Réseaux</matiere>
+    <enseignant>
+      <nom>Sow</nom>
+      <prenom>Ibrahima</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Mercredi</jour>
+      <heure_debut>14:00:00</heure_debut>
+      <heure_fin>16:00:00</heure_fin>
+    </horaire>
+    <salle>Labo A</salle>
+    <type>Travaux pratiques</type>
+  </cours>
+
+  <!-- Jeudi -->
+  <cours id="c10">
+    <matiere>Systèmes d&apos;exploitation</matiere>
+    <enseignant>
+      <nom>Ba</nom>
+      <prenom>Ousmane</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Jeudi</jour>
+      <heure_debut>08:00:00</heure_debut>
+      <heure_fin>10:00:00</heure_fin>
+    </horaire>
+    <salle>A105</salle>
+    <type>Travaux dirigés</type>
+  </cours>
+
+  <cours id="c11">
+    <matiere>Projet</matiere>
+    <enseignant>
+      <nom>Diallo</nom>
+      <prenom>Aminata</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Jeudi</jour>
+      <heure_debut>10:15:00</heure_debut>
+      <heure_fin>12:15:00</heure_fin>
+    </horaire>
+    <salle>B201</salle>
+    <type>Travaux pratiques</type>
+  </cours>
+
+  <cours id="c12">
+    <matiere>Base de données</matiere>
+    <enseignant>
+      <nom>Ndiaye</nom>
+      <prenom>Fatou</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Jeudi</jour>
+      <heure_debut>14:00:00</heure_debut>
+      <heure_fin>16:00:00</heure_fin>
+    </horaire>
+    <salle>B203</salle>
+    <type>Travaux dirigés</type>
+  </cours>
+
+  <!-- Vendredi -->
+  <cours id="c13">
+    <matiere>Technologies XML</matiere>
+    <enseignant>
+      <nom>Diallo</nom>
+      <prenom>Aminata</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Vendredi</jour>
+      <heure_debut>08:00:00</heure_debut>
+      <heure_fin>10:00:00</heure_fin>
+    </horaire>
+    <salle>B201</salle>
+    <type>Travaux pratiques</type>
+  </cours>
+
+  <cours id="c14">
+    <matiere>Réseaux</matiere>
+    <enseignant>
+      <nom>Sow</nom>
+      <prenom>Ibrahima</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Vendredi</jour>
+      <heure_debut>10:15:00</heure_debut>
+      <heure_fin>12:15:00</heure_fin>
+    </horaire>
+    <salle>Labo A</salle>
+    <type>Travaux dirigés</type>
+  </cours>
+
+  <cours id="c15">
+    <matiere>Projet</matiere>
+    <enseignant>
+      <nom>Diallo</nom>
+      <prenom>Aminata</prenom>
+    </enseignant>
+    <horaire>
+      <jour>Vendredi</jour>
+      <heure_debut>14:00:00</heure_debut>
+      <heure_fin>16:00:00</heure_fin>
+    </horaire>
+    <salle>B205</salle>
+    <type>Travaux dirigés</type>
+  </cours>
+
+</emploi_du_temps>
